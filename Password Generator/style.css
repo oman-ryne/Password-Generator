@@ -1,0 +1,104 @@
+/* Created by Oman Ryne */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+}
+
+.wrapper {
+  width: 350px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 5px;
+}
+
+.input-box {
+  display: grid;
+  grid-template-columns: auto min-content;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.input-box input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: #ddd;
+}
+
+button {
+  background: #4070f4;
+  padding: 5px 15px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2649a7;
+}
+
+.range {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  margin: 15px 0;
+}
+
+.range span {
+  width: 50px;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.options label {
+  display: block;
+  background: #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.generate-btn {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Oman Ryne-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator - JavaScript</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h2>Password Generator</h2>
+      <div class="input-box">
+        <input type="text" readonly />
+        <button class="copy-btn">Copy</button>
+      </div>
+      <div class="range">
+        <input type="range" min="4" max="25" value="6" />
+        <span class="range-val">6</span>
+      </div>
+      <span>Customize Password :</span>
+      <div class="options">
+        <label class="option">
+          <input type="checkbox" class="lowercase" checked />
+          <span>a-z</span>
+        </label>
+        <label class="option">
+          <input type="checkbox" class="uppercase" />
+          <span>A-Z</span>
+        </label>
+        <label class="option">
+          <input type="checkbox" class="numbers" />
+          <span>0-9</span>
+        </label>
+        <label class="option">
+          <input type="checkbox" class="specialchar" />
+          <span>!@#$%</span>
+        </label>
+      </div>
+      <button class="generate-btn">Generate</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
